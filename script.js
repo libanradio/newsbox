@@ -2,7 +2,10 @@ var slideCount;
 var slideWidth;
 var slideHeight;
 var sliderUlWidth;
-
+// Refresh the page after a delay of 120 seconds
+setTimeout(function(){
+    location.reload();
+}, 1200000); // 1200000 milliseconds = 120 seconds
 $(function() {
 	getRssFeed("http://nnaleb.com/ar/rss", mapFeed);
 	
