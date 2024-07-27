@@ -2,10 +2,10 @@ var slideCount;
 var slideWidth;
 var slideHeight;
 var sliderUlWidth;
-// Refresh the page after a delay of 5 seconds
+// Refresh the page after a delay of 60 seconds
 setTimeout(function(){
     location.reload();
-}, 5000); // 5000 milliseconds = 5 seconds
+}, 60000); // 60000 milliseconds = 60 seconds
 $(function() {
 	getRssFeed("http://nnaleb.com/ar/rss", mapFeed);
 	
