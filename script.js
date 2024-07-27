@@ -1,4 +1,4 @@
-Suuvar slideCount;
+var slideCount;
 var slideWidth;
 var slideHeight;
 var sliderUlWidth;
